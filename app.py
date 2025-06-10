@@ -2,7 +2,7 @@ import streamlit as st
 import data
 import plotly.express as px
 
-st.set_page_config(layout='wide')
+st.set_page_config(layout='wide',page_title='India Census Viz')
 
 st.sidebar.title("India Map")
 selected_state = st.sidebar.selectbox('Select State',data.states)
