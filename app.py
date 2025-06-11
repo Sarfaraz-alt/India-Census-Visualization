@@ -15,7 +15,6 @@ secondary = st.sidebar.selectbox('Select Secondary Attribute',
 
 l = data.attributtes_[-6:]
 
-print(l)
 plot = st.sidebar.button('Plot')
 
 if plot:
