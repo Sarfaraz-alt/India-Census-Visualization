@@ -13,7 +13,8 @@ primary = st.sidebar.selectbox('Select Primary Attribute',data.attributtes_)
 secondary = st.sidebar.selectbox('Select Secondary Attribute',
                                  data.attributtes_)
 
-l = data.attributtes_[-4:]
+l = data.attributtes_[-6:]
+
 print(l)
 plot = st.sidebar.button('Plot')
 
